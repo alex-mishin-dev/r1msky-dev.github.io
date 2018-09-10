@@ -1,0 +1,141 @@
+header {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	height: 100vh;
+
+	}
+
+.header-img {
+width: 404px;
+height: 630px;
+}
+
+.header-text {
+margin-left: 74px;
+}
+
+.header-text__title {
+color: #000000;
+font-family: Tahoma;
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 15px;
+
+}
+
+.header-text__subtitle {
+	color: #000000;
+font-family: Tahoma;
+font-size: 30px;
+font-weight: 400;
+margin-bottom: 35px;
+
+}
+
+.header-text__descr {
+	color: #000000;
+font-family: Tahoma;
+font-size: 18px;
+font-weight: 400;
+max-width:526px;
+margin-bottom: 47px;
+
+}
+
+.header-text__price {
+	color: #313131;
+font-family: Tahoma;
+font-size: 48px;
+font-weight: 400;
+margin-bottom: 53px;
+
+}
+
+.button {
+	width: 175px;
+height: 67px;
+border-radius: 5px;
+background-color: #f05a22;
+color: #ffffff;
+font-family: Tahoma;
+font-size: 24px;
+font-weight: 700;
+}
+
+.button-o {
+	width: 287px;
+height: 67px;
+border-radius: 5px;
+border: 2px solid #f05a22;
+color: #f05a22;
+font-family: Tahoma;
+font-size: 24px;
+font-weight: 700;
+background-color: transparent;
+}
+
+.features {
+	background-color: #f2f2f2;
+		padding-bottom: 100px;
+}
+.features-title {
+	text-align: center;
+	color: #333333;
+font-family: Tahoma;
+font-size: 30px;
+font-weight: 700;
+padding-top: 89px;
+margin-bottom: 91px;
+}
+.features-img {
+	display: flex;
+	justify-content: space-around;
+	color: #333333;
+font-family: "Open Sans";
+font-size: 18px;
+font-weight: 400;
+}
+
+.feature {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.feature img {
+	margin-bottom: 16px;
+}
+
+.clients {
+	padding-bottom: 100px;
+}
+
+.clients-title {
+	color: #333333;
+font-family: Tahoma;
+font-size: 30px;
+font-weight: 700;
+text-align: center;
+padding-top: 89px;
+padding-bottom: 69px;
+}
+
+.clients-img1 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 40px;
+}
+
+
+.clients-img2 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
